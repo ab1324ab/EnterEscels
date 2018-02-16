@@ -52,6 +52,7 @@ public class WindowView extends JFrame{
     public WindowView (){
         contentMap=PropertiesTool.redConfigFile("config.properties");
         try{
+            System.out.println("开始启动");
             init();
         }catch (Exception e){
             //启动预警
